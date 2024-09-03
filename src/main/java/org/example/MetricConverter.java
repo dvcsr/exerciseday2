@@ -20,7 +20,7 @@ public class MetricConverter {
                     System.out.println(" kilometer");
                     ;
                 } catch (NumberFormatException ex) {
-                    System.out.println("please only enter a number");
+                    System.out.println("please only enter a number. Do it again: ");
                 }
 
             } while (!isValid);
